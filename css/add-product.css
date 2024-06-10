@@ -1,0 +1,46 @@
+.add-product{
+    text-align: center;
+    /* margin-top: 80px; */
+    margin-bottom: 10px;
+}
+.add-product form{
+    display: inline-block;
+
+    margin-top: 50px;
+}
+.add-product form p{
+    display: flex;
+    width: 370px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.add-product form input[type="text"]{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-product form textarea{
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-product form input[type="submit"]{
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: #75c1ff;
+    border: 1px solid #75c1ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-product form input[type="submit"]:hover{
+    background-color: #378ed6;
+    color: #fff;
+}
