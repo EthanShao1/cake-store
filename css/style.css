@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微軟正黑體";
+    background-color: rgb(194, 226, 238);
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #add8fb;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f00;
+}
+h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #add8fb;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}   
