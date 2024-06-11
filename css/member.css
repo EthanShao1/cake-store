@@ -1,0 +1,65 @@
+.register{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #a9d8ff;
+}
+.register h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register form{
+    width: 300px;
+    margin: 0 auto;
+}
+.register form input{
+    width: 90%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.register form input[type="submit"]{
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #4b86b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register form input[type="submit"]:hover{
+    background-color: #477397;
+}
+.member{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.member table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.member table th, .member table td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.member table th{
+    background-color: #f2f2f2;
+}
+.member table tr:nth-child(odd){
+    background-color: #f9f9f9;
+}
+.member table tr:hover{
+    background-color: #f2f2f2;
+}

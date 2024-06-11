@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/member.css">
     <title>蛋糕小舖</title>
 </head>
 <body>
@@ -22,6 +23,19 @@
     <h2>會員頁面</h2>
     <main>
         <section>
+            <script>alert("尚未註冊會員，請註冊會員。");</script>
+                <div class="register">
+                    <h3>註冊會員</h3>
+                    <form action="member.php" method="POST">
+                        <p>帳號：<input type="text" names="account_number" placeholder="帳號"></p>
+                        <p>密碼：<input type="password" names="passwords" placeholder="密碼"></p>
+                        <p>姓名：<input type="text" names="names" placeholder="姓名"></p>
+                        <p>行動電話：<input type="text" names="mobile_telephone" placeholder="行動電話"></p>
+                        <p>地址：<input type="text" names="addresss" placeholder="地址"></p>
+                        <p>電子郵件：<input type="text" names="email" placeholder="電子郵件"></p>
+                        <input type="submit" value="註冊">
+                    </form>
+                </div>
         </section>
     </main>
     <footer>

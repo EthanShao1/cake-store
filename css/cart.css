@@ -26,7 +26,10 @@
 .cart .cart-item h3{
     margin-bottom: 10px;
 }
-.cart .cart-item button{
+.cart .cart-item .ps{
+    font-size: 10px;
+}
+.cart .cart-item input{
     padding: 5px 10px;
     margin-top: 10px;
     background-color: #4b86b6;
@@ -35,7 +38,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.cart .cart-item button:hover{
+.cart .cart-item input:hover{
     background-color: #294167;
 }
 .checkout{
